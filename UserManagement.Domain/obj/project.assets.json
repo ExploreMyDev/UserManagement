@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj",
+      "projectUniqueName": "C:\\Vishnu\\RND\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj",
       "projectName": "UserManagement.Domain",
-      "projectPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj",
+      "projectPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\vishnu.v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.Domain\\obj\\",
+      "outputPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

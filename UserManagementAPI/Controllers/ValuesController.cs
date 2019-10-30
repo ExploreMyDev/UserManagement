@@ -1,4 +1,5 @@
-﻿using System;
+﻿#region IncudedNamespaces
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Runtime.Serialization;
 using UserManagement.Domain;
+#endregion IncudedNamespaces
 
 namespace UserManagementAPI.Controllers
 {
@@ -14,43 +16,31 @@ namespace UserManagementAPI.Controllers
     public class ValuesController : Controller
     {
 
-        // POST api/values/AddUser
-        [HttpPost]
-        [Route("[action]")]
-        public bool AddUser(User objUsers)
-        {
-            return new UserManagement.BLL.UserManagementBLL().AddNewUser(objUsers.Name, objUsers.DateOfBirth);
-        }
-
-        [HttpGet]
-        [Route("[action]")]
-        public JsonResult GetUsers()
-        {
-            List<User> userList = new UserManagement.BLL.UserManagementBLL().SelectAllUsers();
-            return this.Json(userList, new JsonSerializerSettings());
-        }
-
         // GET api/values
         [HttpGet]
         public JsonResult Get()
         {
-            //new UserManagement.BLL.UserManagementBLL().AddNewUser("vishnu", DateTime.Now);
             List<User> userList = new UserManagement.BLL.UserManagementBLL().SelectAllUsers();
             return this.Json(userList, new JsonSerializerSettings());
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]User objUsers)
+        public bool Post([FromBody]User objUsers)
         {
-            new UserManagement.BLL.UserManagementBLL().AddNewUser(objUsers.Name, objUsers.DateOfBirth);
+            bool status = false;
+
+            try
+            {
+                status = new UserManagement.BLL.UserManagementBLL().AddNewUser(objUsers.Name, objUsers.DateOfBirth);
+            }
+            catch (Exception ex)
+            {
+                status = false;
+            }
+
+            return status;
         }
 
         // PUT api/values/5

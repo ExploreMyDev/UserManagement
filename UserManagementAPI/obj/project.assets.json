@@ -11855,11 +11855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagementAPI\\UserManagementAPI.csproj",
+      "projectUniqueName": "C:\\Vishnu\\RND\\UserManagement\\UserManagementAPI\\UserManagementAPI.csproj",
       "projectName": "UserManagementAPI",
-      "projectPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagementAPI\\UserManagementAPI.csproj",
+      "projectPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagementAPI\\UserManagementAPI.csproj",
       "packagesPath": "C:\\Users\\vishnu.v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagementAPI\\obj\\",
+      "outputPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11880,11 +11880,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.BLL\\UserManagement.BLL.csproj": {
-              "projectPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.BLL\\UserManagement.BLL.csproj"
+            "C:\\Vishnu\\RND\\UserManagement\\UserManagement.BLL\\UserManagement.BLL.csproj": {
+              "projectPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagement.BLL\\UserManagement.BLL.csproj"
             },
-            "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj"
+            "C:\\Vishnu\\RND\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj": {
+              "projectPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagement.Domain\\UserManagement.Domain.csproj"
             }
           }
         }

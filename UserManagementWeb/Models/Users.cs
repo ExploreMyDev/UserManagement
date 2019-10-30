@@ -7,8 +7,18 @@ namespace UserManagementWeb.Models
 {
     public class Users
     {
+        #region Name
+        /// <summary>
+        /// Name
+        /// </summary>
         public string Name { get; set; }
+        #endregion Name
 
-        public string DateOfBirth { get; set; }
+        #region MyRegion
+        /// <summary>
+        /// DateOfBirth
+        /// </summary>
+        public string DateOfBirth { get; set; } 
+        #endregion
     }
 }

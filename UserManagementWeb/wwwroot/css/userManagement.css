@@ -1,0 +1,19 @@
+﻿#idUserList {
+    width: 45%;
+}
+
+.list {
+    width: 48%;
+    display: block;
+    float: left;
+    min-height: 32px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.validationerror {
+    border-color: #dc3545;
+}

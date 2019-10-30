@@ -2,96 +2,10 @@
 @{
     ViewData["Title"] = "UserManagement";
 }
-<script>
-    $(document).ready(function () {
-        $("#idDob").datepicker();
-        fnDisplayAllUsers(); 
-    });
+<link rel="stylesheet" href="~/css/userManagement.css" />
+<script src="~/lib/custom/userManage.js"></script>
 
-    function fnDisplayAllUsers() {
-        var url = "http://localhost:25403/api/values/GetUsers";
 
-        $.ajax({
-            type: "GET",
-            url: url,
-            contentType: "application/json; charset=utf-8",
-            dataType: 'json',
-            success: function (data) {
-                $('.item').remove();
-                if (data.length > 0) {
-                    $.each(data, function (key, value) {
-                        $('#idUserList').append("<div class='list item'>" + value.Name + "</div><div class='list item'>" + value.DateOfBirth + "</div>");
-                        //alert(value.Name)
-                    });
-                }
-                else {
-                    $('#idUserList').append("<div class='list item'>No records found.</div>");
-                }
-                //$('#idUserList').
-            },
-        });
-    }
-
-    function fnSaveDetails() {
-        if (fnvalidateFrom())
-        fnSaveUserDetails();
-    }
-
-    function fnSaveUserDetails() {
-        var url = "http://localhost:25403/api/values/AddUser";
-        var objUser = {
-            Name: $('#idName').val(),
-            DateOfBirth: $('#idDob').val()
-        };
-        $.ajax({
-            type: "POST",
-            url: url,
-            contentType: "application/json; charset=utf-8",
-            dataType: 'json',
-            data: JSON.stringify(objUser),
-            success: function (data) {  
-                $('#idName').val('');
-                $('#idDob').val('');
-                fnDisplayAllUsers();
-                alert('User added successfully.');
-            },
-        });
-    }
-
-    function fnvalidateFrom() {
-        var status = true;
-        if ($('#idName').val() == "") {
-            status = false;
-            $('#idName').addClass('validationerror');
-        }
-        else {
-            $('#idName').removeClass('validationerror');
-        }
-
-        return status;
-    }
-</script>
-<style>
-    #idUserList {
-        width: 45%;
-    }
-
-    .list {
-        width: 48%;
-        display: block;
-        float: left;
-        min-height: 32px;
-    }
-
-    .header {
-        font-weight: 700;
-        font-size: 17px;
-    }
-
-    .validationerror {
-        border-color: #dc3545;
-    }
-</style>
 <h2>User Management</h2>
 &nbsp;
 <div id="idUserList">
@@ -101,6 +15,6 @@
     <form>
         <label>Name: </label><input type="text" id="idName" name="Name" />
         <label>Date of birth: </label><input placeholder="MM/dd/yyyy" type="text" id="idDob" name="DateOfBirth" />
-        <input type="button" id="idsave" value="Save" onclick="fnSaveDetails()"/>
+        <input type="button" id="idsave" value="Save" onclick="fnSaveDetails()" />
     </form>
 </div>

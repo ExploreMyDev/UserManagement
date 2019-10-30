@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagementWeb\\UserManagementWeb.csproj",
+      "projectUniqueName": "C:\\Vishnu\\RND\\UserManagement\\UserManagementWeb\\UserManagementWeb.csproj",
       "projectName": "UserManagementWeb",
-      "projectPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagementWeb\\UserManagementWeb.csproj",
+      "projectPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagementWeb\\UserManagementWeb.csproj",
       "packagesPath": "C:\\Users\\vishnu.v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vishnu.v\\source\\repos\\UserManagement\\UserManagementWeb\\obj\\",
+      "outputPath": "C:\\Vishnu\\RND\\UserManagement\\UserManagementWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
