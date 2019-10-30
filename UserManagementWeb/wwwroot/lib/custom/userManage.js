@@ -59,8 +59,20 @@ function fnvalidateFrom() {
         status = false;
         $('#idName').addClass('validationerror');
     }
+    else if (!/^[a-zA-Z]*$/g.test($('#idName').val())) {
+        alert("Please enter alphabets only");
+        status = false;
+        $('#idName').addClass('validationerror');
+    }
+    else if ($('#idDob').val() == "") {
+        $('#idName').removeClass('validationerror');
+        alert("Please enter your DOB");
+        status = false;
+        $('#idDob').addClass('validationerror');
+    }
     else {
         $('#idName').removeClass('validationerror');
+        $('#idDob').removeClass('validationerror');
     }
 
     return status;

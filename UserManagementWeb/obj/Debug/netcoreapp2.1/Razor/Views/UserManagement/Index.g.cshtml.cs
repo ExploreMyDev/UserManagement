@@ -64,7 +64,7 @@ using UserManagementWeb.Models;
 #line default
 #line hidden
             BeginContext(52, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "bbc5ce626fb34f58b017a0d5777c4727", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "13212468818e49ee80b0022aaa957314", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -83,7 +83,7 @@ using UserManagementWeb.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(111, 50, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a3a6e7e9c514425cbd8f9f3737e52eff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bf1f75d0d454f1a87935c9675528d88", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -101,7 +101,7 @@ using UserManagementWeb.Models;
             WriteLiteral("\r\n\r\n\r\n<h2>User Management</h2>\r\n&nbsp;\r\n<div id=\"idUserList\">\r\n    <div class=\"list header\">Name</div><div class=\"list header\">Date of birth</div>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(328, 295, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "75150d8f9781440f949ec31dfd43b6d0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47a763d699544efaa31118d3dc6ab7e4", async() => {
                 BeginContext(334, 282, true);
                 WriteLiteral(@"
         <label>Name: </label><input type=""text"" id=""idName"" name=""Name"" />

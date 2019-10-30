@@ -1,0 +1,10 @@
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\bin\Debug\UserManagementDatabase.dacpac
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\bin\Debug\UserManagementDatabase.dll
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\bin\Debug\UserManagementDatabase.pdb
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\UserManagementDatabase.sqlprojAssemblyReference.cache
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\Model.xml
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\refactor.xml
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\postdeploy.sql
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\predeploy.sql
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\UserManagementDatabase.dll
+C:\Vishnu\RND\UserManagement\UserManagementDatabase\obj\Debug\UserManagementDatabase.pdb
